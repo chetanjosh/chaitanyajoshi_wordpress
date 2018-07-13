@@ -1,0 +1,56 @@
+/*
+Theme Name: My website
+Theme URI: 
+Description: This is a child theme developed for devtools 2 summer 2018
+Author: Analytical Engine
+Version: 1.0
+Template: twentysixteen
+*/
+
+@import url('../twentysixteen/style.css');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Chela+One");
+
+
+
+.site {
+    background-color: pink;
+}
+
+.site-branding .site-title a {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.entry-title {
+    font-family: 'Chela One', cursive;
+
+}
+
+.entry-content, .entry-summary {
+    border-color: #d1d1d1;
+}
+
+body, button, input, select, textarea {
+    color: #1a1a1a;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+element.style {
+}
+
+body {
+    background-color: #4b998878;
+}
+
+.main-navigation a {
+    color: #1ac799b5;
+    display: block;
+    line-height: 1.3125;
+    outline-offset: -2px;
+    padding: 0.84375em 0;
+}
